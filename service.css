@@ -1,0 +1,144 @@
+body{
+    margin: 20px;
+}
+first.first{   
+    height: 250px;
+}
+first >div{
+    background-color:#2c2a2a;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    max-width: 100%;
+    padding: 50px;
+}
+first > div > h1 {
+    
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 0 auto;
+
+}
+first > div >p{
+    text-align: 0 auto;
+    
+    margin: 0;
+    font-size: 20px;
+    color: lemonchiffon;
+}
+div.hr{
+    height: auto;
+}
+div.hr > div{
+    margin-bottom: 10px;
+    width: 20%;
+    border: 2px solid;
+}
+div.hr > h1{
+    margin-bottom: 0;
+    font-family: monospace;
+    font-style: italic;
+}
+div.color{
+    background-color: #363636;
+    height: 20px;
+    margin-bottom: 5px;
+
+}
+
+/* NAV */
+nav.main{
+    /* background: tomato; */
+    width: 100%;
+    display: flex;
+}
+div.left ul{
+    margin: 5px;
+}
+div.left ul > li{
+    list-style-type: none;
+}
+h3{
+    padding-left: 10px;
+    margin: 2px;
+}
+ul > li > span {
+    font-weight: bold;
+}
+div.left{
+    width: 30%;
+    /* position: relative; */
+    border: 1px solid rgb(16, 15, 17);
+    padding: 5px;
+}
+div.left > img {
+    /* position: absolute; */
+    
+    width: 100%;
+}
+div.left button[type=button]{
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid orange;
+  }
+.botton{
+    text-align: center;
+    margin: 10px;
+  }
+  a.ggform{
+      text-decoration: none;
+      color: #fff;
+  }
+ div.right{
+    width: 60%;
+    padding: 30px;
+}
+
+div.right > h2{
+    text-align: center;
+    text-shadow: 3px 1px 3px rgb(26, 23, 22) ;
+}
+
+/* SECTION */
+section.fbzone{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background-color: #363636;
+    border-radius: 5px 5px;
+    
+}
+div.my-feedback{
+    display: flex;
+}
+div.feedback{
+    width: 33%;
+    padding: 5px;
+    margin: 5px;
+    
+}
+div.feedback > img{
+    position: relative;
+   left: 90px;
+    border-radius: 50%;
+}
+div.feedback > h5{
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+div.feedback > p{
+    color:white;
+
+}
+/* imgagency */
+div.img-agency{
+    background-image: url(villa/slider_1.jpg) ;
+    width: 100%;
+    opacity: 0.8;
+    height: 1000px;
+    background-position: center center;
+
+}

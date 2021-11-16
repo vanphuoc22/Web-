@@ -1,0 +1,40 @@
+header{
+    background-color:aqua;
+}
+div.my-header{
+    display: flex;
+    position: relative;
+}
+div.user{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+div.main{ 
+    margin-top: auto;
+    margin-left: auto;
+    
+    
+}
+div > h1{
+    color:black;
+    text-shadow: 2px 2px #ff0000;
+  
+}
+div > ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+div > ul > li{
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient(red, yellow, blue);
+    padding: 10px;
+    margin: 2px;
+}
+input[type=text]{
+    width: 30%;
+}
+input[type=button]{
+    color:aliceblue
+}
